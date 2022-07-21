@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/xqwbx163</id>
+    <title>Gridea</title>
+    <updated>2022-07-21T02:29:06.970Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/xqwbx163"/>
+    <link rel="self" href="https://github.com/xqwbx163/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://github.com/xqwbx163/images/avatar.png</logo>
+    <icon>https://github.com/xqwbx163/favicon.ico</icon>
+    <rights>All rights reserved 2022, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[ClickHouse Sql 应用---1]]></title>
+        <id>https://github.com/xqwbx163/post/clickhouse-sql-ying-yong-1/</id>
+        <link href="https://github.com/xqwbx163/post/clickhouse-sql-ying-yong-1/">
+        </link>
+        <updated>2022-07-21T02:24:17.000Z</updated>
+        <content type="html"><![CDATA[<p>1、group by  多字段应用时，可以使用 整行替代<br>
+select  case when sorce=60 then concat('60'-name) end tname ,count(*)<br>
+from  ch.table1<br>
+group by tname</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本站说明]]></title>
+        <id>https://github.com/xqwbx163/post/guan-yu-ben-zhan/</id>
+        <link href="https://github.com/xqwbx163/post/guan-yu-ben-zhan/">
+        </link>
+        <updated>2022-07-21T02:15:34.000Z</updated>
+        <content type="html"><![CDATA[<p>1、本站只做资源收集，只做资源的搬运工<br>
+2、本站只记录对应的功能便签，用于记录日常的技术积累<br>
+3、如有侵权的文章或者作品，可以联系本人或者留言进行删除<br>
+4、本站邮件联系方式:xqwbx163@gmail.com</p>
+]]></content>
+    </entry>
+</feed>
